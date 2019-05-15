@@ -3,7 +3,7 @@
     <name>Smart Money</name>
     <description>Aplicativo em ionic .</description>
     <author email="matheusjc.ti@gmail.com" href="http://ionicframework.com/">Matheus</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.1.16:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -82,4 +82,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^4.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <allow-navigation href="http://192.168.1.26:8100" sessionid="243f3c5e" />
+    <allow-navigation href="http://192.168.1.16:8100" sessionid="662a1790" />
 </widget>
